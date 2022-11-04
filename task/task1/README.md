@@ -1,7 +1,1 @@
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_1.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_2.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_3.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_4.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_5.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_6.png)
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_7.png)
+![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_1.png
