@@ -1,1 +1,2 @@
-![solution to the quiz](Masamu [2022]Task #1_ Data Representation and Boolean logic Worksheet1024_1.png
+![solution to the quiz](task1_1.png)
+![solution to the quiz](task1_2.png)
