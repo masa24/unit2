@@ -1,2 +1,7 @@
 ![solution to the quiz](task1_1.png)
 ![solution to the quiz](task1_2.png)
+![solution to the quiz](task1_3.png)
+![solution to the quiz](task1_4.png)
+![solution to the quiz](task1_5.png)
+![solution to the quiz](task1_6.png)
+![solution to the quiz](task1_7.png)
