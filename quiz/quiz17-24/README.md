@@ -13,7 +13,7 @@ ave(['computer science','art'])
 ave(['one','two'])
 ave(['ba na na','ap pl e'])
 ```
-![solution to the quiz](quiz9.png)
+![solution to the quiz](quiz17.png)
 
 # quiz18
 
@@ -39,6 +39,8 @@ print(numberMatches(250,110),'matches')
 print(numberMatches(500,150),'matches')
 print(numberMatches(12345,123),'matches')
 ```
+
+![solution to the quiz](quiz18.png)
 # quiz19
 ```.py
 def change(word):
@@ -62,6 +64,8 @@ change('Hello World')
 change('Why did I choose CS?')
 change('Remember the figure Caption')
 ```
+
+![solution to the quiz](quiz19.png)
 # quiz20
 ```.py
 def convert(a):
@@ -84,6 +88,8 @@ def base():
         print('|', convert(a), '|', convert(b), '|', convert(c), '|')
 base()
 ```
+
+![solution to the quiz](quiz20.png)
 # quiz21
 ```.py
 def formula(a,b,c):
@@ -106,6 +112,7 @@ def base():
 base()
 ```
 
+![solution to the quiz](quiz21.png)
 # quiz22-23
 ```.py
 import random
@@ -133,6 +140,8 @@ def produce(n,m,s):
 sample = produce(n=5, m=3, s=2)
 print(sample)
 ```
+
+![solution to the quiz](quiz2223.png)
 # quiz24
 ```.py
 from matplotlib import pyplot as plt
@@ -148,3 +157,4 @@ plt.ylabel('y')
 plt.title('quiz 24')
 plt.show()
 ```
+![solution to the quiz](quiz24.png)
