@@ -108,5 +108,5 @@ the median of temp: 25.0
 the median of hum: 25.0
 
 ## graph
-![image](https://user-images.githubusercontent.com/49806189/207244077-02157885-4bce-4f81-8671-88a8d96850e5.png)
+![image](Screen Shot 2022-12-13 at 15.47.17.png)
 
