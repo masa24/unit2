@@ -72,11 +72,17 @@ median('hum')
 
 
 def plot(a):
-    plt.plot(value[str(a)])
-'''
+    if a == 'temp':
+        c = 'r'
+    elif a == 'hum':
+        c = 'b'
+    plt.plot(value[str(a)],color = c)
+
 plot('temp')
 plot('hum')
-plt.show()'''
+plt.ylabel('red = tempareture\nblue = humidity')
+plt.title('indoor data')
+plt.show()
 ```
 ## result
 mean of temp: 24.5
