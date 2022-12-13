@@ -108,5 +108,5 @@ the median of temp: 25.0
 the median of hum: 25.0
 
 ## graph
-![image](outdoorgraph.png)
+![image](outdoordata.png)
 
