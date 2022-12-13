@@ -80,8 +80,8 @@ def plot(a):
 
 plot('temp')
 plot('hum')
-plt.ylabel('red = tempareture\nblue = humidity')
-plt.title('indoor data')
+plt.ylabel('red = tempareture(C)\nblue = humidity(%)')
+plt.title('outdoor data')
 plt.show()
 ```
 ## result
