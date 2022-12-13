@@ -1,4 +1,83 @@
+## code
+```.py
+from matplotlib import pyplot as plt
+import requests
+import math
 
+
+req = requests.get('http://192.168.6.142/readings')
+data = req.json()
+readings = data["readings"][0]
+temp = []
+hum = []
+count = 0
+
+for i in readings:
+    if i['sensor_id'] == 4:
+        hum.append(i)
+    if i['sensor_id'] == 5:
+        temp.append(i)
+#        count +=1
+
+data = {'temp': temp[-576:], 'hum': hum[-576:]}
+value = {'temp': [], 'hum': []}
+
+for i in data['temp']:
+    value['temp'].append(i['value'])
+for i in data['hum']:
+    value['hum'].append(i['value'])
+print(value)
+
+
+def mean(a):
+    sum = 0
+    for i in value[str(a)]:
+        sum += i
+    mean = round(sum/len(value[str(a)]),1)
+    print(f'mean of {a}: {mean}')
+    sumdiv = 0
+    for i in value[str(a)]:
+        sumdiv += (i - mean)**2
+    standad_deviation = math.sqrt(sumdiv/len(value[str(a)]))
+    print(f'standad deviation of {a}: {round(standad_deviation,2)}')
+mean('temp')
+mean('hum')
+
+print()
+
+def min(a):
+    min = 50
+    for i in value[str(a)]:
+        if i < min:
+            min = i
+    print(f'minimum value of {a}: {min}')
+min('temp')
+min('hum')
+
+def max(a):
+    max = 0
+    for i in value[str(a)]:
+        if i > max:
+            max = i
+    print(f'maximum value of {a}: {max}')
+max('temp')
+max('hum')
+
+def median(a):
+    median = sorted(value[str(a)])
+    print(f'the median of {a}: {median[288]}')
+median('temp')
+median('hum')
+
+
+
+def plot(a):
+    plt.plot(value[str(a)])
+'''
+plot('temp')
+plot('hum')
+plt.show()'''
+```
 ## result
 mean of temp: 24.5
 
